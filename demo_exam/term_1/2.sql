@@ -1,0 +1,1 @@
+SELECT * FROM exhibit WHERE AUTHOR = 'Шишкин И. И.';

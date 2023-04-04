@@ -1,0 +1,5 @@
+db.NEURONET.find({"insurer.name": "Югория").pretty()    
+db.NEURONET.find({$or: [{"insurer.name": "Югория"},{"premiums.riskname": "Незаконное использование сим-карт, чипов и т.п"}], suminsured: {$lt: 50000}}).count()      
+
+
+ 

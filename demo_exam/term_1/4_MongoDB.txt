@@ -1,0 +1,1 @@
+db.NEURONET.find({reference: 'WWBW06087'}, {"claims.sum": 1}).pretty()

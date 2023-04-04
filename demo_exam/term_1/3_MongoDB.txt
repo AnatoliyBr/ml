@@ -1,0 +1,8 @@
+db.stats()
+show collections
+
+db.NEURONET.find()
+db.NEURONET.find().pretty()
+
+db.NEURONET.find({reference: 'WWDU06915'}).pretty()
+db.NEURONET.find({reference: 'WWDU06915'}, {inceptiondate: 1, _id: 0}).pretty()
